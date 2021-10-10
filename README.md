@@ -8,7 +8,7 @@ Whether Windows would work natively I haven't tried yet, but feel free to includ
 ## Build requirements
 These are the tools needed for the build:
 - `git` (for initial download)
-- `make`
+- `make` (for building the kernel)
 - `gcc` (for building gcc on your own)
 - `qemu` (for testing)
 
