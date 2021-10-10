@@ -12,13 +12,6 @@ These are the tools needed for the build:
 - `gcc` (for building gcc on your own)
 - `qemu` (for testing)
 
-You also need this packages for building gcc, if they are not already installed
-- `uuid-dev`
-- `libfuse-dev`
-- `libmpfr-dev`
-- `libmpc-dev`
-- `libgmp-dev`
-
 `nasm` is getting build via our toolchain
 
 ```bash
