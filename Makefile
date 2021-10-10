@@ -45,8 +45,8 @@ clean:
 toolchain:
 	make -C limine
 	make -C echfs echfs-utils
-	chmod +x toolchain/make_toolchain.sh
-	./toolchain/make_toolchain.sh
+	@ chmod +x toolchain/make_toolchain.sh
+	@ ./toolchain/make_toolchain.sh
 
 cleanToolchain:
 	make -C limine clean
