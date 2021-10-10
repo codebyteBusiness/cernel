@@ -30,6 +30,7 @@ void create_address_indexer(struct AddressIndexer *indexer, uintptr_t virt_addr)
     indexer->pml4 = virt_addr & 0x1ff;
 }
 
+// creates a physical address from a virtuell address using the specified page table
 uintptr_t vmm_translate(struct PageTable *page_table, uintptr_t virt_addr) 
 {
 	struct AddressIndexer indexer;
